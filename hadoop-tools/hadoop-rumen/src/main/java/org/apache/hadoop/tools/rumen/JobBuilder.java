@@ -137,6 +137,7 @@ public class JobBuilder {
           "JobBuilder.process(HistoryEvent event) called after ParsedJob built");
     }
 
+    //  System.out.println("* * * TEST * * *");
     // these are in lexicographical order by class name.
     if (event instanceof AMStartedEvent) {
       // ignore this event as Rumen currently doesnt need this event
